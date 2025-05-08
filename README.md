@@ -13,4 +13,5 @@ Tested with Tesla T4, Driver Version: 550.90.07, CUDA Version: 12.4
 Memory check differences between cpu and non-cpu versions always be checked with: vmstat 1 >> memory.log
 
 
-The difference in wall and cpu time should show the benefit of using a lazy gpu collection compared to pandas.
+The difference in wall and cpu time should show the benefit of using a lazy gpu collection compared to pandas for very big data sets.
+In this simple example, there was a 22GB file used.
